@@ -16,6 +16,7 @@ public class EnrollmentRequestDto implements Serializable {
 	protected int tenure;
 	protected double sumInsurred;
 	protected List<MedicalRecordDto> medicalRecords;
+        system.out.println("iam dto")
 
 	public String getFirstName() {
 		return firstName;
