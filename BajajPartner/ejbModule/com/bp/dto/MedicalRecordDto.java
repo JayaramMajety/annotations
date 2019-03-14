@@ -12,15 +12,18 @@ public class MedicalRecordDto implements Serializable {
 
 	public String getMedicalTestName() {
 		return medicalTestName;
+system.out.println("iam dto class ");
 	}
 
 	public void setMedicalTestName(String medicalTestName) {
 		this.medicalTestName = medicalTestName;
 	}
+system.out.println("iam setter");
 
 	public Date getMedicalRecordDate() {
 		return medicalRecordDate;
 	}
+system.out.println("iam getter");
 
 	public void setMedicalRecordDate(Date medicalRecordDate) {
 		this.medicalRecordDate = medicalRecordDate;
